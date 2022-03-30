@@ -1,0 +1,128 @@
+body {
+font-family: "Open Sans", sans-serif;
+padding-top: 0px;
+background-color: #202020 ; 
+}
+
+header {
+ background-color: #E8E8E8 ; 
+ width: 100%;
+  display: flex;
+ padding: 30px;
+ position: fixed;
+ top: o;
+} 
+
+header > figure {
+  display: flex;
+  width: 100%;
+  align-items:center;
+}
+
+header > figure > img {
+
+}
+
+header > figure > figcaption {
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:20px;
+}
+header > nav {
+  width:400px;
+  border: 20px;
+  padding-top:12px;
+}
+header > nav > ul {
+   display: flex; 
+   text-align: center;
+   justify-content: space-between;
+   height: 100%;
+}
+header > nav  ul > li{
+
+}
+header > nav  ul > li > a{
+    color: black;
+   font-weight: 400px;
+   font-size: 25px;
+}
+
+main {
+  padding-top: 130px;
+  background-color:   #202020 ;
+ 
+}
+main > section > p {
+  color: white;
+  text-align: center ;
+  font-size: 20px  ;
+  font-weight: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase ;
+}
+  
+main > section {
+
+}
+
+  
+.container {
+
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+main > section > ul.categoria {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   padding: 25px;
+   text-align: center;
+}
+
+main > section >  ul.categoria  li { 
+padding: 15px 
+}
+main > section > ul.categoria  li  a {
+  color: white;
+  border-bottom: 20px;
+  border-radius: 20px;
+  background: #404040 ;
+  width: 120px;
+  height: 40px; 
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+
+main > section > ul.listaFilmes{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main > section > ul.listaFilmes > li {
+  max-width: 250px;
+  margin-bottom: 50px;
+   cursor: pointer  ;
+
+}
+
+main > section > ul.llistaFilmes > li > figure > img {
+  width: 100%;
+} 
+ul.listaFilmes  li h2 {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden; /*para esconder quando passar da largura do bloco*/
+  white-space: nowrap;/**/
+  text-overflow: ellipsis;/*para aparecer ... passar da largura do bloco*/
+}
